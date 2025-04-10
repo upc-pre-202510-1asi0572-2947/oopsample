@@ -6,7 +6,7 @@
 class Process final : public Executable {
   private:
     std::vector<std::unique_ptr<Resource>> resourcePool;
-    std::vector<std::unique_ptr<Executable>> task;
+    std::vector<std::unique_ptr<Executable>> tasks;
   public:
     Process(const std::string& name,
             const std::string& description,
