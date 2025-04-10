@@ -14,7 +14,8 @@ include_directories(${PROJECT_SOURCE_DIR}/include)
 
 # Source files
 set(SOURCES
-        main.cpp)
+        main.cpp
+        src/Resource.cpp)
 
 # Executable target
 add_executable(oopsample ${SOURCES})
