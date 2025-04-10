@@ -18,7 +18,8 @@ set(SOURCES
         src/Resource.cpp
         src/Executable.cpp
         src/ConsumableResource.cpp
-        src/UsableResource.cpp)
+        src/UsableResource.cpp
+        src/Task.cpp)
 
 # Executable target
 add_executable(oopsample ${SOURCES})
